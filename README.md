@@ -3,6 +3,10 @@ This REPO would describe how to deploy WAR in Docker tomcat container.
 Before starting the step, please pull the docker image from [dockerhub of tomcat](https://hub.docker.com/_/tomcat?tab=description), 
 and `jdk8-openjdk-slim` would be the default tag of docker image.
 
+```
+docker pull tomcat:jdk8-openjdk-slim
+```
+
 * Step 1. Copy the war file to the `dockerfile` directory.
 * Step 2. Executing the command:
 ```$bash
